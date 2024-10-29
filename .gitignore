@@ -1,0 +1,38 @@
+# Node or npm
+node_modules
+logs
+*.log*
+*.tgz
+.node_repl_history
+.npm
+.lock-wscript
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+# Serverless directories
+.serverless
+
+# IDE / Editor
+.idea
+
+# macOS
+.DS_Store
+
+# Others
+.fleet
+directus/
+
+# security scanner
+report.html
+result.json
+
+database/data.db
