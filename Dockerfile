@@ -57,8 +57,7 @@ EOF
 FROM node:20-alpine AS final
 
 RUN apk upgrade --latest --prune --purge --no-cache \
-	&& NODE_ENV=production \
-	&& npm install --global pm2@5
+	&& NODE_ENV=production
 
 
 WORKDIR /directus
